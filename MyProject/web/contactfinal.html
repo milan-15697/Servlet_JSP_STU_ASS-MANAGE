@@ -1,0 +1,72 @@
+<html>
+
+<head>
+
+<link rel="stylesheet" type="text/css" href="css.css" media="screen" />
+
+<script>
+function CAP() {
+    var x = document.getElementById("cap");var y = document.getElementById("cap2");var z = document.getElementById("cap3");
+    x.value = x.value.toUpperCase();y.value = y.value.toUpperCase();z.value = z.value.toUpperCase();
+}
+</script>
+<p><img src="images\clever-owl.png" width="110"height="110" align="right"></p>
+<body background="images\bg-6-full.jpg">
+<a href="MAIN.html">
+<img src="images\amplifyworks-logo.svg" width="120"height="120"></a>
+
+<font face="verdana"  size="12" color="#24CBF0">Your </font>
+<font face="verdana"  size="8" color="#1EBD39">Data!</font>
+
+
+
+<object width="1340" height="50" data="images\twineblue.png"></object>
+<br>
+<br>
+<br>
+<br>
+</head>
+<body>
+
+
+<h2><b>Keep Your Profile Updated For Timely Updates!!!!<b></h2><br><br>
+            <form action="temp.jsp" method="post">
+
+<ul class="form-style-1">
+    
+   <label>Full Name:<span class="required">*</span></label> <input type="text" name="usrname" required><br><br>
+   <label>Father's Name:<span class="required">*</span></label> <input type="text" name="fname" required><br><br>
+   <label>Mother's Name:<span class="required">*</span></label> <input type="text" name="mname" required><br><br>
+   <label>DOB:  <span class="required">*</span></label> <input type="" name="dob" required><br><br>
+   <label>Email <span class="required">*</span></label><input type="email" name="email" required>
+    <br><br>
+        
+        <label>Programming Language preferred?<span class="required">*</span></label>
+        <select name="lang">
+        <option value="JAVA">JAVA</option>
+        <option value="Cpp">C++</option>
+        <option value="Python">Python</option>
+        </select>
+    <br><br>
+        <label>Describe yourself</label>
+        <textarea  name="about" required id="field5" class=" field-textarea"></textarea>
+<br><br>
+
+<input type="submit">
+<script>function alertf() {alert("Thank you!!!");}</script>
+
+<input id="demo" type="reset" onclick="alertf2()" value="Reset" />
+<script>
+
+function  alertf2() {
+var d = new Date(); var n =d.getHours();
+document.getElementById("demo").innerHTML=n;
+{alert(d);}}
+
+</script>
+
+</li>
+</ul>
+</form>
+</body>
+</html>
